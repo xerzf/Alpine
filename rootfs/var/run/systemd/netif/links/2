@@ -1,0 +1,22 @@
+# This is private data. Do not parse.
+ADMIN_STATE=configured
+OPER_STATE=routable
+CARRIER_STATE=carrier
+ADDRESS_STATE=routable
+IPV4_ADDRESS_STATE=routable
+IPV6_ADDRESS_STATE=degraded
+ONLINE_STATE=online
+REQUIRED_FOR_ONLINE=yes
+REQUIRED_OPER_STATE_FOR_ONLINE=degraded
+REQUIRED_FAMILY_FOR_ONLINE=any
+ACTIVATION_POLICY=up
+NETWORK_FILE=/run/systemd/network/10-netplan-ens3.network
+DNS=10.0.2.3
+NTP=
+SIP=
+DOMAINS=
+ROUTE_DOMAINS=
+LLMNR=yes
+MDNS=no
+DHCP_LEASE=/run/systemd/netif/leases/2
+DHCP6_CLIENT_DUID=DUID-EN/Vendor:0000ab11eb351121e4c13bb00000

@@ -1,0 +1,62 @@
+{
+ "base64_encoded_keys": [],
+ "ds": {
+  "_doc": "EXPERIMENTAL: The structure and format of content scoped under the 'ds' key may change in subsequent releases of cloud-init.",
+  "meta_data": {
+   "dsmode": "net",
+   "instance-id": "iid-local01"
+  }
+ },
+ "merged_cfg": "redacted for non-root user",
+ "merged_system_cfg": "redacted for non-root user",
+ "sensitive_keys": [
+  "merged_cfg",
+  "merged_system_cfg"
+ ],
+ "sys_info": {
+  "dist": [
+   "ubuntu",
+   "22.04",
+   "jammy"
+  ],
+  "platform": "Linux-5.15.0-91-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "release": "5.15.0-91-generic",
+  "system": "Linux",
+  "uname": [
+   "Linux",
+   "ubuntu",
+   "5.15.0-91-generic",
+   "#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023",
+   "x86_64",
+   "x86_64"
+  ],
+  "variant": "ubuntu"
+ },
+ "v1": {
+  "_beta_keys": [
+   "subplatform"
+  ],
+  "availability-zone": null,
+  "availability_zone": null,
+  "cloud-name": "unknown",
+  "cloud_id": "nocloud",
+  "cloud_name": "unknown",
+  "distro": "ubuntu",
+  "distro_release": "jammy",
+  "distro_version": "22.04",
+  "instance-id": "iid-local01",
+  "instance_id": "iid-local01",
+  "kernel_release": "5.15.0-91-generic",
+  "local-hostname": "ubuntu",
+  "local_hostname": "ubuntu",
+  "machine": "x86_64",
+  "platform": "nocloud",
+  "public_ssh_keys": [],
+  "python_version": "3.10.12",
+  "region": null,
+  "subplatform": "config-disk (/dev/sdb)",
+  "system_platform": "Linux-5.15.0-91-generic-x86_64-with-glibc2.35",
+  "variant": "ubuntu"
+ }
+}

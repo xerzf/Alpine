@@ -1,0 +1,35 @@
+[up 8.66s] ds-identify 
+policy loaded: mode=search report=false found=all maybe=all notfound=disabled
+/etc/cloud/cloud.cfg.d/90_dpkg.cfg set datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltCloud, OVF, MAAS, GCE, OpenStack, CloudSigma, SmartOS, Bigstep, Scaleway, AliYun, Ec2, CloudStack, Hetzner, IBMCloud, Oracle, Exoscale, RbxCloud, UpCloud, VMware, Vultr, LXD, NWCS, Akamai, None ]
+DMI_PRODUCT_NAME=Standard PC (i440FX + PIIX, 1996)
+DMI_SYS_VENDOR=QEMU
+DMI_PRODUCT_SERIAL=
+DMI_PRODUCT_UUID=unavailable
+PID_1_PRODUCT_NAME=unavailable
+DMI_CHASSIS_ASSET_TAG=
+DMI_BOARD_NAME=unavailable
+FS_LABELS=cidata,UEFI,UEFI,cloudimg-rootfs
+ISO9660_DEVS=/dev/sdb=cidata
+KERNEL_CMDLINE=BOOT_IMAGE=/boot/vmlinuz-5.15.0-91-generic root=UUID=b5d8d38f-33ef-49e0-81f1-f30060511872 ro console=tty1 console=ttyS0
+VIRT=kvm
+UNAME_KERNEL_NAME=Linux
+UNAME_KERNEL_RELEASE=5.15.0-91-generic
+UNAME_KERNEL_VERSION=#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+UNAME_MACHINE=x86_64
+UNAME_NODENAME=ubuntu
+UNAME_OPERATING_SYSTEM=GNU/Linux
+DSNAME=
+DSLIST=NoCloud ConfigDrive OpenNebula DigitalOcean Azure AltCloud OVF MAAS GCE OpenStack CloudSigma SmartOS Bigstep Scaleway AliYun Ec2 CloudStack Hetzner IBMCloud Oracle Exoscale RbxCloud UpCloud VMware Vultr LXD NWCS Akamai None
+MODE=search
+ON_FOUND=all
+ON_MAYBE=all
+ON_NOTFOUND=disabled
+pid=1080 ppid=1058
+is_container=false
+check for 'NoCloud' returned found
+is_ds_enabled(IBMCloud) = true.
+skipping iso dev /dev/sdb
+is_ds_enabled(IBMCloud) = true.
+ec2 platform is 'Unknown'.
+Found single datasource: NoCloud
+[up 8.83s] returning 0

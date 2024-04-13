@@ -1,0 +1,6 @@
+[Match]
+PermanentMACAddress=52:54:00:12:34:56
+
+[Link]
+Name=ens3
+WakeOnLan=off

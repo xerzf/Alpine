@@ -1,0 +1,24 @@
+{
+	"ociVersion": "1.0.0",
+	"process": {
+		"terminal": false,
+	"args": [
+			"sh"
+		],
+		"env": [
+                        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+                ],
+		"cwd": "/"
+	},
+	"root": {
+		"path": "rootfs",
+		"readonly": true
+	},
+	"mounts": [
+	],
+	"linux": {
+		"resources": {
+		}
+	}
+}
+

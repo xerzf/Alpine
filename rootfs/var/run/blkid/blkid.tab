@@ -1,0 +1,8 @@
+<device DEVNO="0x0810" TIME="1704901761.806962" BLOCK_SIZE="2048" UUID="2023-12-17-06-17-09-00" LABEL="cidata" TYPE="iso9660">/dev/sdb</device>
+<device DEVNO="0x080f" TIME="1704901761.891101" LABEL_FATBOOT="UEFI" LABEL="UEFI" UUID="40E8-9D49" BLOCK_SIZE="512" TYPE="vfat" PARTUUID="57c33fc3-1cb6-454b-826c-af7bbea2cbe9">/dev/sda15</device>
+<device DEVNO="0x0801" TIME="1704901761.891710" LABEL="cloudimg-rootfs" UUID="b5d8d38f-33ef-49e0-81f1-f30060511872" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="6e1755ad-f465-4d6c-9256-2a45365c98b8">/dev/sda1</device>
+<device DEVNO="0x0701" TIME="1704901761.803511" TYPE="squashfs">/dev/loop1</device>
+<device DEVNO="0x0704" TIME="1704901761.807409" TYPE="squashfs">/dev/loop4</device>
+<device DEVNO="0x0702" TIME="1704901761.870177" TYPE="squashfs">/dev/loop2</device>
+<device DEVNO="0x0700" TIME="1704901761.879563" TYPE="squashfs">/dev/loop0</device>
+<device DEVNO="0x0703" TIME="1704901761.891972" TYPE="squashfs">/dev/loop3</device>

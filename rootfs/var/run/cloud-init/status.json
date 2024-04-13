@@ -1,0 +1,31 @@
+{
+ "v1": {
+  "datasource": "DataSourceNoCloud [seed=/dev/sdb][dsmode=net]",
+  "init": {
+   "errors": [],
+   "finished": 1704901764.8278494,
+   "start": 1704901764.420149
+  },
+  "init-local": {
+   "errors": [],
+   "finished": 1704901762.4030528,
+   "start": 1704901761.761436
+  },
+  "modules-config": {
+   "errors": [],
+   "finished": 1704901773.2545414,
+   "start": 1704901773.1557152
+  },
+  "modules-final": {
+   "errors": [],
+   "finished": 1704901773.6720796,
+   "start": 1704901773.5428421
+  },
+  "modules-init": {
+   "errors": [],
+   "finished": null,
+   "start": null
+  },
+  "stage": null
+ }
+}
